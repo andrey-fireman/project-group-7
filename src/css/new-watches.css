@@ -1,0 +1,55 @@
+.new-wathces-section{
+    max-width: 375px;
+    margin: 0 auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.new-wathces-container{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.new-wathces-title {
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.06em;
+color: rgba(20, 20, 20, 0.4);
+    margin-bottom: 8px;
+}
+.new-wathces-subtitle {
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: -0.02em;
+color: #141414;
+    margin-bottom: 40px;
+    max-width: 448px;
+}
+
+.new-wathces-item:first-child {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .new-wathces-section {
+    max-width: 768px;
+  }
+  .new-wathces-container{
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .new-wathces-list {
+    display: flex;
+    gap: 20px;
+}
+.new-wathces-item:first-child{
+    margin-bottom: 0;
+}
+}
+
