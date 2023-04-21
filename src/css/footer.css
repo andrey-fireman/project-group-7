@@ -1,9 +1,15 @@
-.footer {
-    background-color: aquamarine;
-
+/* Footer */
+.section.footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 0px;
 }
 
 .foot-info {
+    display: flex;
+    background-color: #1E2827;
+    color: #FFFFFF;
 
 }
 
@@ -11,84 +17,49 @@
 
 }
 
-.logo {
+.logo {}
+
+.foot-logotype {
+    background-color: #FFFFFF;
 
 }
 
-.footer-contact-address {
+.footer-contact-address {}
 
-}
+.footer-address {}
 
-.footer-address {
+.footer-address-nav {}
 
-}
+.foot-item {}
 
-.footer-address-nav {
+.foot-item.telephone {}
 
-}
+.ping {}
 
-.foot-item {
+.footer-menu {}
 
-}
+.footer-nav {}
 
-.foot-item.telephone {
+.footer-site-nav {}
 
-}
+.foot-chapter {}
 
-.ping {
+.foot-link {}
 
-}
+.footer-social-links {}
 
-.footer-menu {
+.footer-social-list {}
 
-}
+.footer-social-item {}
 
-.footer-nav {
+.foot-link-back {}
 
-}
+.foot-link-sign {}
 
-.footer-site-nav {
+.footer-text {}
 
-}
+.footer-desc {}
 
-.foot-chapter {
-
-}
-
-.foot-link {
-
-}
-
-.footer-social-links {
-
-}
-
-.footer-social-list {
-
-}
-
-.footer-social-item {
-
-}
-
-.foot-link-back {
-
-}
-
-.foot-link-sign {
-
-}
-
-.footer-text {
-
-}
-
-.footer-desc {
-
-}
-
-.footer-desc-item {
-
-}
+.footer-desc-item {}
 
 
