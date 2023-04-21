@@ -32,7 +32,7 @@ color: #141414;
     max-width: 448px;
 }
 
-.new-wathces-item:first-child {
+.new-wathces-item:not(:last-child) {
     margin-bottom: 20px;
 }
 
@@ -48,7 +48,7 @@ color: #141414;
     display: flex;
     gap: 20px;
 }
-.new-wathces-item:first-child{
+.new-wathces-item:not(:last-child){
     margin-bottom: 0;
 }
 }
