@@ -10,14 +10,33 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;600&display=swap" rel="stylesheet" />
   
-  <link rel="stylesheet" href="/project-group-7/assets/index-417d26e0.css">
+  <link rel="stylesheet" href="/project-group-7/assets/index-e3b2d5cf.css">
 </head>
 
 <body>
   <!-- СЕКЦІЯ HEADER -->
   
   <!-- БУРГЕР МЕНЮ -->
-  
+  <div class="mob-menu is-hidden" data-mobyl>
+
+    <div class="mob-logo-btncloce ">
+        <a href="" class="mob-logo-link">
+            <img src="../img/svg/logo.svg" class="mob-logo-img">
+            <span class="mob-logo-text">thewatchspot</span>
+
+        </a>
+        <button type="button" class="menu-btn-close" data-mobyl-close>
+            <svg class="menu-btn-icon-close">
+                <use href="../img/svg/sprite.svg#icon-close-modal-desktop-tablet-burgermenu"></use>
+            </svg>
+        </button>
+    </div>
+    <ul class="mob-burger-list">
+        <li><a href="" class="mob-list-link">About us</a></li>
+        <li><a href="" class="mob-list-link">Catalog</a></li>
+        <li><a href="" class="mob-list-link">Sale</a></li>
+    </ul>
+</div>
   <main>
     <!-- СЕКЦІЯ HERO -->
     
@@ -86,6 +105,10 @@ discover the perfect watch for you.</p>
   
   <!-- СЕКЦІЯ MODAL -->
   
+
+
+  <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
