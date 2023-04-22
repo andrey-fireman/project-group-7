@@ -50,7 +50,7 @@ color: #141414;
   }
   .new-watches-list {
     display: flex;
-    gap: 20px;
+    gap: 24px;
 }
 .new-watches-item:first-child{
     margin-bottom: 0;
