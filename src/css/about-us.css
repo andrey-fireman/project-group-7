@@ -1,3 +1,7 @@
+.about_us{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 .about_title{
 font-weight: 600;
 font-size: 32px;
@@ -23,9 +27,13 @@ letter-spacing: -0.02em;
 }
 
 @media screen and (min-width: 768px){
-.about_image {
+.about_us{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+    .about_image {
 width: 704px;
-height: 667px;
+height: 465px;
 }
 .about_flex{
     display: flex;
@@ -52,6 +60,10 @@ height: 667px;
 }
 
 @media screen and (min-width: 1280px){
+    .about_us{
+        padding-top:80px;
+        padding-bottom:80px;
+    }
 .about_title {
 margin-right: 110px;
 }
@@ -62,7 +74,6 @@ max-width: 859px;
 .about_image {
 width: 892px;
 height: 500px;
-position: absolute;
 transform:translateX(284px)
 }
 }
