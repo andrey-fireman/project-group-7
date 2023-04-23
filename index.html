@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;600&display=swap" rel="stylesheet" />
   
-  <link rel="stylesheet" href="/project-group-7/assets/index-b4141503.css">
+  <link rel="stylesheet" href="/project-group-7/assets/index-ffa825f9.css">
 </head>
 
 <body>
@@ -74,7 +74,7 @@
     <section class="about_us">
   <div class="container">
     <div class="about_flex">
-      <h1 class="about_title">About us</h1>
+      <h2 class="about_title">About us</h2>
       <ul class="about_paragraphs">
         <li class="about_item">
           <p class="about_text">
@@ -103,7 +103,6 @@
     />
   </div>
 </section>
-
     <!-- СЕКЦІЯ CATALOG -->
     
 
@@ -147,7 +146,107 @@
   <!-- СЕКЦІЯ FOOTER -->
   
   <!-- СЕКЦІЯ MODAL -->
-  
+  <!-- <div class="backdrop" data-modal>
+    <div class="modal">
+        <button type="button" class="modal-button" data-modal-close>
+            <svg class="modal-close">
+                <use href="../img/svg/sprite.svg#icon-close-modal-mobile"></use>
+            </svg>
+        </button>
+
+        <div class="modal-add-container">
+            <div class="modal-part-one">
+                <img class="modal-img" src="../img/mobile_modal.jpg" alt="clock" width="276">
+                <p class="modal-txt">Tube Watch S42 Date Steel With Black Case...</p>
+                <span class="modal-mini-text">€395</span>
+            </div>
+
+            <form class="modal-form">
+                <label class="modal-form-label"><span class="modal-text">Full name</span>
+                    <span class="modal-block">
+                        <input class="modal-input" type="text" name="user-name" placeholder="Enter your full name"
+                            required pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+                            title="Username must be two words separated by space">
+                        <svg class="modal-icon">
+                            <use href="./images/icons.svg#icon-name"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal-form-label"><span class="modal-text">Email</span>
+                    <span class="modal-block">
+                        <input class="modal-input" type="text" name="user-email" placeholder="Enter your email" required
+                            pattern="^[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*@[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*$">
+                        <svg class="modal-icon">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal-form-label"><span class="modal-text">Card number</span>
+                    <span class="modal-block">
+                        <input class="modal-input" type="text" name="user-card" placeholder="Enter card" required
+                            pattern="[0-9]{,3}">
+                        <svg class="modal-icon">
+                            <use href="./images/icons.svg#icon-email"></use>
+                        </svg>
+                    </span>
+                </label>
+
+                <label class="modal-form-label">Comments
+                    <textarea class="modal-form-textarea" name="user-comment" id="user-comment" cols="30" rows="8"
+                        placeholder="Enter your text"></textarea>
+                </label>
+
+                <button class="modal-form-button" type="submit">submit</button>
+                <p class="modal-form-text">By clicking on “Submit” button, you agree to our Privacy Policy, and allow
+                    Promodo to use this information for marketing purposes.</p>
+            </form>
+        </div>
+    </div>
+</div> -->
+
+<div class="backdrop" data-modal>
+    <div class="modal">
+        <div class="modal-part-one">
+                <img class="modal-img" src="../img/mobile_modal.jpg" alt="clock" width="276" height="375">
+                <p class="modal-txt">Tube Watch S42 Date Steel With Black Case...</p>
+                <p class="modal-mini-text">€395</p>
+        </div>
+
+        <form class="modal-form">
+            <button type="button" class="close-button" data-modal-close>
+                <svg class="close-icon">
+                    <use href="../img/svg/sprite.svg#icon-close"></use>
+                </svg>
+            </button>
+            <div class="modal-form-field">
+                <div class="form-field">
+                    <label for="name">Full name</label>
+                    <input class="modal-input" type="text" name="name" id="name" placeholder="Enter your full name" required pattern="[a-zA-Zа-яА-Я]+" minlength="2" title="Username must be two words separated by space">
+                </div>
+                
+                <div class="form-field">
+                    <label for="mail">Email</label>
+                    <input class="modal-input" type="email" name="mail" id="mail" placeholder="Enter your email" required
+                            pattern="^[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*@[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*$">
+                </div>
+
+                <div class="form-field">
+                    <label for="card">Card number</label>
+                    <input class="modal-input" type="text" name="user-card" placeholder="Enter card" required
+                            pattern="[0-9]{,3}"></input>
+                </div>
+                
+                <div class="form-field">
+                    <label for="comment">Comment</label>
+                    <textarea name="comment" id="comment" placeholder="Enter your text"></textarea>
+                </div>
+            </div>
+            <button type="submit" class="submit-button">SUBMIT</button>
+            <p class="modal-form-text">By clicking on “Submit” button, you agree to our Privacy Policy, and allow
+                Promodo to use this information for marketing purposes.</p>
+        </form>
+    </div>
+</div>
 
 
   <script src="./js/modal.js"></script>
