@@ -1,0 +1,151 @@
+/*---375---*/
+
+.header {
+    background-color: var(--text-color);
+    position: absolute;
+    width: 100%;
+    padding-top: 34px;
+    z-index: 1;
+    padding-bottom: 69px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+}
+
+.header-nav {
+    display: inline-flex;
+    align-items: center;
+}
+
+.header-list {
+    display: none;
+    align-items: center;
+    gap: 40px;
+}
+
+.site-logo {
+    margin-right: 4px;
+    width: 14px;
+    height: 14px;
+}
+
+/*---LOGO---*/
+
+.logo-text {
+    margin-right: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+/*----NAV---*/
+
+.header-page {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 0.75;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--background-color);
+    position: relative;
+    outline: none;
+    transition: color 250ms;
+    transition-timing-function: var(--transition-timing);
+}
+
+.header-page:hover:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: var(--background-color);
+    border-radius: 2px;
+    left: 0;
+    top: 20px;
+}
+
+.header-page:focus:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: var(--background-color);
+    border-radius: 2px;
+    left: 0;
+    top: 20px;
+}
+
+/*---PHONE---*/
+
+.header-phone {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--background-color);
+    background: #1E2827;
+    border-radius: 8px;
+    border: 1px solid var(--text-color);
+    padding: 18px 36px;
+    transition: color 250ms;
+    transition-timing-function: var(--transition-timing);
+}
+
+.header-phone:hover,
+.header-phone:focus {
+    border: 1px solid var(--background-color);
+}
+
+/*----MOB-MENU---*/
+
+.mob-menu-open {
+    display: flex;
+    border: none;
+    background-color: transparent;
+}
+
+.menu-open-icon {
+    stroke: var(--background-color);
+
+}
+
+/*----768---*/
+
+@media screen and (min-width: 768px) {
+
+    .header {
+        padding-bottom: 80px;
+    }
+
+    .header-list {
+        display: flex;
+    }
+
+    .site-logo {
+        width: 19px;
+        height: 19px;
+    }
+
+    .logo-text {
+        font-size: 15px;
+    }
+
+    .mob-menu-open {
+        display: none;
+    }
+
+}
+
+/*---1280---*/
+
+@media screen and (min-width: 1280px) {}
