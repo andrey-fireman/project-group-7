@@ -32,9 +32,13 @@ color: #141414;
     max-width: 448px;
 }
 
-.new-watches-item:first-child {
-    margin-bottom: 20px;
+.new-watches-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
+
+
 
 @media screen and (min-width: 768px) {
   .new-watches-section {
@@ -50,11 +54,11 @@ color: #141414;
   }
   .new-watches-list {
     display: flex;
-    gap: 24px;
+    justify-content: space-between;
 }
-.new-watches-item:first-child{
-    margin-bottom: 0;
-}
+
+
+
 .new-watches-img{
     width: 342px;
     height: 260px;
@@ -65,9 +69,9 @@ color: #141414;
     .new-watches-section {
     max-width: 1280px;
   }
-  .new-watches-list {
+  /* .new-watches-list {
     gap: 24px;
-}
+} */
 .new-watches-img{
     width: 576px;
     height: 422px;
@@ -75,5 +79,8 @@ color: #141414;
 .new-watches-subtitle{
     margin-bottom: 80px;
 }
+
+
+
 
 }
