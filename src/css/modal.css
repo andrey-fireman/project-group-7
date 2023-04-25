@@ -208,7 +208,6 @@
 }
 .modal{
     max-width: 335px;
-    max-height: 1073px;
     width: 100%;
     background-color: white;
     top: 50%;
@@ -216,7 +215,7 @@
     transform: translate( -50%, -50%);
     position: absolute;
     padding: 40px 20px;
-    height: 100%;
+    height: auto;
 }
 .backdrop.is-hidden {
     opacity: 0;
