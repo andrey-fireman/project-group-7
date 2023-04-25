@@ -286,8 +286,8 @@ input[type='text'] {
     height: 170px;
 }
 .close-button{
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
    display: flex;
    justify-content: center;
   align-items: center;
@@ -297,11 +297,12 @@ input[type='text'] {
   right: 12px;
   stroke: black;
   display: block;
+  padding: 0;
   background-color: white;
 }
 .close-icon{
-    width: 20px;
-    height: 20px;
+    width: 12px;
+    height: 12px;
 }
 .submit-button{
     padding: 18px 116px;
@@ -321,6 +322,9 @@ input[type='text'] {
         margin-bottom: 12px;
         text-align: center;
         text-transform: uppercase;
+}
+textarea {
+    resize: none;
 }
 .modal-form-text {
     font-size: 12px;
