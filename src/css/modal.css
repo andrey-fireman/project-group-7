@@ -266,9 +266,21 @@ margin-bottom: 12px;
     border-radius: 8px;
     width: 100%;
 }
-.form-field input:invalid {
-    border: 1px solid red;
-}
+/* .form-field input:invalid {
+    border: 1px solid #ff0000;
+} */
+
+input[type='email'],
+input[type='tel'],
+input[type='text'] {
+	&:invalid:not(:focus):not(:placeholder-shown) {
+		border: 1px solid #ff0000;
+		}}
+/* .form-field:not(:placeholder-shown):required:valid {
+  border-color: #f00;
+} */
+
+
 
 .form-field textarea{
     height: 170px;
