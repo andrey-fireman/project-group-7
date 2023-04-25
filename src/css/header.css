@@ -55,8 +55,7 @@
     color: var(--background-color);
     position: relative;
     outline: none;
-    transition: color 250ms;
-    transition-timing-function: var(--transition-timing);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-page::after {
@@ -69,8 +68,7 @@
     left: 0;
     top: 20px;
     opacity: 0;
-    transition: color 250ms;
-    transition-timing-function: var(--transition-timing);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-page:hover:after {
