@@ -326,6 +326,9 @@ input[type='text'] {
 textarea {
     resize: none;
 }
+.no-scroll{
+    overflow:hidden;
+}
 .modal-form-text {
     font-size: 12px;
     line-height: 1.17;
