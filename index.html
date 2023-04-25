@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/project-group-7/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Watch Spot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/project-group-7/assets/index-a67cc722.css">
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/project-group-7/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Watch Spot</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;600&display=swap" rel="stylesheet" />
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="/project-group-7/assets/index-a7870482.css">
-</head>
-
-<body>
-  <!-- СЕКЦІЯ HEADER -->
-  <header class="header">
+  <body>
+    <!-- СЕКЦІЯ HEADER -->
+    <header class="header">
 
     <div class="container header-container">
         <nav class="header-nav">
@@ -46,8 +51,8 @@
         </button>
     </div>
 </header>
-  <!-- БУРГЕР МЕНЮ -->
-  <div class="mob-menu" data-mobyl>
+    <!-- БУРГЕР МЕНЮ -->
+    <div class="mob-menu" data-mobyl>
   <div class="mob-logo-btncloce">
     <a href="#" class="mob-logo-link">
       main
@@ -68,9 +73,9 @@
   </ul>
 </div>
 
-  <main>
-    <!-- СЕКЦІЯ HERO -->
-    <section class="hero-section">
+    <main>
+      <!-- СЕКЦІЯ HERO -->
+      <section class="hero-section">
     <div class="container">
 
     
@@ -163,8 +168,8 @@
         </div>
     </div>
 </section>
-    <!-- СЕКЦІЯ ABOUT US -->
-    <section class="about_us">
+      <!-- СЕКЦІЯ ABOUT US -->
+      <section class="about_us">
   <div class="container">
     <div class="about_flex">
       <h2 class="about_title">About us</h2>
@@ -196,8 +201,8 @@
     />
   </div>
 </section>
-    <!-- СЕКЦІЯ CATALOG -->
-    <section class="section catalog">
+      <!-- СЕКЦІЯ CATALOG -->
+      <section class="section catalog">
   <div class="container">
     <h2 class="catalog-main-headline">Catalog</h2>
     <ul class="catalog-card-list">
@@ -786,8 +791,8 @@
   </div>
 </section>
 
-    <!-- СЕКЦІЯ NEW WATCHES -->
-    <section class="section new-watches-section">
+      <!-- СЕКЦІЯ NEW WATCHES -->
+      <section class="section new-watches-section">
   <div class="new-watches-container">
     <h2 class="new-watches-title">New watches</h2>
     <h3 class="new-watches-subtitle">
@@ -818,8 +823,8 @@
   </div>
 </section>
 
-    <!-- СЕКЦІЯ SALE -->
-    <section class="sale section container">
+      <!-- СЕКЦІЯ SALE -->
+      <section class="sale section container">
     <h2 class="sale-titel">Sale</h2>
     <div class="sale-img-desctop">
         <div class="sale-img">
@@ -889,9 +894,9 @@
         </div>
     </div>
 </section>
-  </main>
-  <!-- СЕКЦІЯ FOOTER -->
-  <section class="footer">
+    </main>
+    <!-- СЕКЦІЯ FOOTER -->
+    <section class="footer">
     <div class="container">
         <div class="foot-info">
             <div class="footer-inner">
@@ -964,8 +969,8 @@ UT 84104</pre>
         </div>
     </div>
 </section>
-  <!-- СЕКЦІЯ MODAL -->
-  <!-- <div class="backdrop" data-modal>
+    <!-- СЕКЦІЯ MODAL -->
+    <!-- <div class="backdrop" data-modal>
     <div class="modal">
         <button type="button" class="modal-button" data-modal-close>
             <svg class="modal-close">
@@ -1054,8 +1059,8 @@ UT 84104</pre>
 
                 <div class="form-field">
                     <label for="card">Card number</label>
-                    <input class="modal-input" type="text" name="user-card" placeholder="Enter card" required
-                        pattern="[0-9]{,3}"></input>
+                    <input class="modal-input" type="tel" name="user-card" placeholder="Enter card" required
+                        pattern="[+380]{4}-[0-9]{2}-[0-9]{3}-[0-9]{4}" title="+380-00-000-0000"> </input>
                 </div>
 
                 <div class="form-field">
@@ -1069,24 +1074,22 @@ UT 84104</pre>
         </form>
     </div>
 </div>
-  <script src="./js/modal.js"></script>
-  <script src="./js/mobile-menu.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <script>
-    const swiper = new Swiper(".heroSwiper", {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      loop: true,
-      keyboard: {
-        enabled: true,
-      },
-      navigation: {
-        nextEl: ".swiper-right",
-        prevEl: ".swiper-left",
-      },
-
-    });
-  </script>
-</body>
-
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.heroSwiper', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        keyboard: {
+          enabled: true,
+        },
+        navigation: {
+          nextEl: '.swiper-right',
+          prevEl: '.swiper-left',
+        },
+      });
+    </script>
+  </body>
 </html>
