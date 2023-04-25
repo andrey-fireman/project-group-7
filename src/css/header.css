@@ -89,13 +89,14 @@
     text-align: center;
     text-transform: uppercase;
     color: var(--background-color);
-    background: #1E2827;
+    background: var(--primary-brand-color);
     border-radius: 8px;
     border: 1px solid var(--text-color);
     padding: 18px 36px;
-    transition: color 250ms;
+    transition: border 250ms;
     transition-timing-function: var(--transition-timing);
 }
+
 
 .header-phone:hover,
 .header-phone:focus {
