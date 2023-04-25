@@ -63,7 +63,7 @@
 }
 
 .footer-nav-link {
-    display: block;
+    /* display: block; */
     line-height: 1.29;
     text-transform: uppercase;
 
@@ -72,9 +72,10 @@
     transition: color var(--animation-time) var(--transition-timing);
 }
 
-.footer-nav-link:is(:hover, :focus),
-.footer-contacts-tel:is(:hover, :focus),
-.footer-contacts-address:is(:hover, :focus) {
+
+/* .footer-contacts-tel:is(:hover, :focus),
+.footer-contacts-address:is(:hover, :focus), */
+.footer-nav-link:is(:hover, :focus) {
     border-bottom: 1px solid var(--background-color);
     transition: border-bottom var(--animation-time) var(--transition-timing);
     
