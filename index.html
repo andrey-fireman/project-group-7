@@ -10,7 +10,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;600&display=swap" rel="stylesheet" />
   
-  <link rel="stylesheet" href="/project-group-7/assets/index-59e7f16c.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/project-group-7/assets/index-a7870482.css">
 </head>
 
 <body>
@@ -40,7 +41,7 @@
         </ul>
         <button type="button" class="mob-menu-open" data-mobyl-open>
             <svg class="menu-open-icon" width="24" height="24">
-                <use href="/project-group-7/assets/sprite-2b39bbe6.svg#icon-open-burgermenu"></use>
+                <use href="/project-group-7/assets/sprite-94571038.svg#icon-open-burgermenu"></use>
             </svg>
         </button>
     </div>
@@ -55,7 +56,7 @@
     </a>
     <button type="button" class="menu-btn-close" data-mobyl-close>
       <svg class="menu-btn-icon-close">
-        <use href="/project-group-7/assets/sprite-2b39bbe6.svg#icon-close"></use>
+        <use href="/project-group-7/assets/sprite-94571038.svg#icon-close"></use>
         main
       </svg>
     </button>
@@ -837,7 +838,7 @@ UT 84104</pre>
                     <a class="footer-soc-link" href="https://www.facebook.com/" target="_blank"
                         rel="noopener noreferrer nofollow">
                         <svg class="footer-soc-icon" width="24" height="24">
-                            <use href="/project-group-7/assets/sprite-2b39bbe6.svg#icon-facebook"></use>
+                            <use href="/project-group-7/assets/sprite-94571038.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
@@ -846,7 +847,7 @@ UT 84104</pre>
                     <a class="footer-soc-link" href="https://www.instagram.com/" target="_blank"
                         rel="noopener noreferrer nofollow">
                         <svg class="footer-soc-icon" width="24" height="24">
-                            <use href="/project-group-7/assets/sprite-2b39bbe6.svg#icon-instagram"></use>
+                            <use href="/project-group-7/assets/sprite-94571038.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
@@ -855,7 +856,7 @@ UT 84104</pre>
                     <a class="footer-soc-link" href="https://www.youtube.com/" target="_blank"
                         rel="noopener noreferrer nofollow">
                         <svg class="footer-soc-icon" width="24" height="24">
-                            <use href="/project-group-7/assets/sprite-2b39bbe6.svg#icon-youtube"></use>
+                            <use href="/project-group-7/assets/sprite-94571038.svg#icon-youtube"></use>
                         </svg>
                     </a>
                 </li>
@@ -942,7 +943,7 @@ UT 84104</pre>
         <form class="modal-form">
             <button type="button" class="close-button" data-modal-close>
                 <svg class="close-icon">
-                    <use href="/project-group-7/assets/sprite-2b39bbe6.svg#icon-close"></use>
+                    <use href="/project-group-7/assets/sprite-94571038.svg#icon-close"></use>
                 </svg>
             </button>
             <div class="modal-form-field">
@@ -978,6 +979,22 @@ UT 84104</pre>
 </div>
   <script src="./js/modal.js"></script>
   <script src="./js/mobile-menu.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".heroSwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      loop: true,
+      keyboard: {
+        enabled: true,
+      },
+      navigation: {
+        nextEl: ".swiper-right",
+        prevEl: ".swiper-left",
+      },
+
+    });
+  </script>
 </body>
 
 </html>
