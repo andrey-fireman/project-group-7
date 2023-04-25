@@ -221,7 +221,7 @@
 .backdrop.is-hidden {
     opacity: 0;
     visibility: hidden;
-    pointer-events: none
+    pointer-events: none;
 }
 .modal-part-one{
     padding-top: 40px;
