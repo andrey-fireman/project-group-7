@@ -207,7 +207,6 @@
     z-index: 1000;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
             visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                overflow-y: auto;
 }
 .modal{
     max-width: 335px;
@@ -219,7 +218,7 @@
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
     padding: 40px 20px;
-    height: auto;
+    height: 96%;
     overflow-y: auto;
 }
 .backdrop.is-hidden {
