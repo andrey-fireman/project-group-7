@@ -8,7 +8,9 @@
     z-index: 1;
     padding-bottom: 10px;
 }
-
+.header-phone{
+    display: none;
+}
 .header-container {
     display: flex;
     align-items: center;
@@ -126,7 +128,9 @@
     .header-list {
         display: flex;
     }
-
+.header-phone{
+    display: block;
+}
     .site-logo {
         width: 19px;
         height: 19px;
