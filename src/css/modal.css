@@ -265,20 +265,17 @@ margin-bottom: 12px;
     border-radius: 8px;
     width: 100%;
 }
-/* .form-field input:invalid {
-    border: 1px solid #ff0000;
-} */
 
-input[type='email'],
-input[type='tel'],
-input[type='text'] {
-	&:invalid:not(:focus):not(:placeholder-shown) {
-		border: 1px solid #ff0000;
-		}}
-/* .form-field:not(:placeholder-shown):required:valid {
-  border-color: #f00;
-} */
-
+input[type='email']:invalid:not(:focus):not(:placeholder-shown),
+input[type='tel']:invalid:not(:focus):not(:placeholder-shown),
+input[type='text']:invalid:not(:focus):not(:placeholder-shown) {
+  border: 1px solid #ff0000;
+}
+input[type='email']:valid:not(:focus):not(:placeholder-shown),
+input[type='tel']:valid:not(:focus):not(:placeholder-shown),
+input[type='text']:valid:not(:focus):not(:placeholder-shown) {
+  border: 1px solid var(--light-text-color);
+}
 
 
 .form-field textarea{
