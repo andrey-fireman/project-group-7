@@ -24,6 +24,8 @@ letter-spacing: -0.02em;
     margin-top: 40px;
     width:335px;
     height: 365px;
+    object-fit: cover;
+    object-position: center;
 }
 
 @media screen and (min-width: 768px){
@@ -34,6 +36,8 @@ letter-spacing: -0.02em;
     .about_image {
 width: 704px;
 height: 465px;
+object-fit: cover;
+object-position: center;
 }
 .about_flex{
     display: flex;
